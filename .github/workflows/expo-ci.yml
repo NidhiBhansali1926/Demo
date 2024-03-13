@@ -24,6 +24,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      # Add platform-tools to PATH
+      - name: Add platform-tools to PATH
+        run: echo "export PATH=\$PATH:/home/ics-30/Android/Sdk/platform-tools" >> $GITHUB_PATH
+
       - name: Run Prettier check
         run: npm run pretty
 
