@@ -1,0 +1,30 @@
+// jest.config.js
+module.exports = {
+  preset: 'jest-expo',
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  setupFilesAfterEnv: ['./node_modules/react-native-gesture-handler/jestSetup.js', '<rootDir>/jest.setup.ts'],
+  transformIgnorePatterns: [
+    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|react-redux)',
+  ],
+  coverageReporters: ['html', 'text', 'text-summary', 'cobertura'],
+  testMatch: ['**/*.test.ts?(x)', '**/*.test.js?(x)'],
+  moduleNameMapper: {
+    '^@api/(.*)$': '<rootDir>/src/api/$1',
+    '^@assets/(.*)$': '<rootDir>/src/assets/$1',
+    '^@backgrounds/(.*)$': '<rootDir>/src/theme/assets/backgrounds/$1',
+    '^@svg/(.*)$': '<rootDir>/src/theme/assets/svgs/$1',
+    '^@routes/(.*)$': '<rootDir>/src/navigators/routes/$1',
+    '^@hooks/(.*)$': '<rootDir>/src/hooks/$1',
+    '^@components/(.*)$': '<rootDir>/src/components/$1',
+    '^@navigation/(.*)$': '<rootDir>/src/navigation/$1',
+    '^@store/(.*)$': '<rootDir>/src/store/$1',
+    '^@screens/(.*)$': '<rootDir>/src/screens/$1',
+    '^@theme/(.*)$': '<rootDir>/src/theme/$1',
+    '^@typing/(.*)$': '<rootDir>/typing/$1',
+    '^@utils/(.*)$': '<rootDir>/src/utils/$1',
+    '^@services/(.*)$': '<rootDir>/src/services/$1',
+    '^@font/(.*)$': '<rootDir>/src/theme/assets/fonts/$1',
+  },
+  collectCoverage: false,
+  collectCoverageFrom: ['**/*.{js,jsx}', '!**/coverage/**', '!**/node_modules/**', '!**/babel.config.js', '!**/jest.setup.js'],
+};

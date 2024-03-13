@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Testcase for ElevateAdventure Screen ElevateAdventure Screen Snapshot 1`] = `
+<AppBackground>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      [
+        "scrollFillValue",
+        {
+          "borderTopEndRadius": 32,
+          "borderTopStartRadius": 32,
+          "paddingHorizontal": 20,
+        },
+        {
+          "backgroundColor": "pink",
+        },
+      ]
+    }
+    overScrollMode="never"
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "marginTop": 35,
+      }
+    }
+  >
+    <View>
+      <Header
+        handleOnPressBackIcon={[Function]}
+      />
+      <SurveyOneSVG
+        style={
+          {
+            "marginBottom": 48,
+            "marginTop": 53,
+          }
+        }
+      />
+      <Text
+        style={
+          [
+            undefined,
+            undefined,
+            {
+              "color": "yellow",
+            },
+          ]
+        }
+      >
+        elevateAdventure:title
+      </Text>
+      <Text
+        style={
+          [
+            undefined,
+            undefined,
+            undefined,
+            {
+              "marginTop": 4,
+            },
+            {
+              "color": "red",
+            },
+          ]
+        }
+      >
+        elevateAdventure:description
+      </Text>
+      <AppButton
+        handleClick={[Function]}
+        name="elevateAdventure:primaryBtn"
+      />
+    </View>
+  </RCTScrollView>
+</AppBackground>
+`;

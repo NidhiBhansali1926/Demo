@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Testcase for Rendering TakeSurvey Screen Component TakeSurvey Screen Snapshot with Mocked Dispatch 1`] = `
+<AppBackground
+  colors={[]}
+  overlayColor=""
+>
+  <View
+    style={
+      [
+        {},
+        {
+          "marginTop": 77,
+        },
+      ]
+    }
+  >
+    <LogoSVG
+      style={{}}
+    />
+  </View>
+  <View
+    style={
+      {
+        "marginHorizontal": 20,
+        "paddingBottom": 35,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          undefined,
+          undefined,
+          {
+            "marginBottom": 8,
+          },
+          {
+            "color": undefined,
+          },
+        ]
+      }
+    >
+      takeSurvey:title
+    </Text>
+    <Text
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          {
+            "color": undefined,
+          },
+        ]
+      }
+    >
+      takeSurvey:descriptionOne
+    </Text>
+    <Text
+      style={
+        [
+          undefined,
+          undefined,
+          undefined,
+          {
+            "marginBottom": 4,
+            "marginTop": 16,
+          },
+          {
+            "color": undefined,
+          },
+        ]
+      }
+    >
+      takeSurvey:descriptionTwo
+    </Text>
+    <AppButton
+      handleClick={[Function]}
+      isLoading={false}
+      name="takeSurvey:primaryBtn"
+    />
+    <AppButton
+      containerStyle={
+        [
+          {
+            "marginVertical": 0,
+          },
+          {
+            "backgroundColor": undefined,
+          },
+        ]
+      }
+      handleClick={[Function]}
+      name="takeSurvey:secondaryBtn"
+    />
+  </View>
+</AppBackground>
+`;

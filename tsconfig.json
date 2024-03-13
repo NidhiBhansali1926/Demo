@@ -1,0 +1,25 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["./src/api/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@backgrounds": ["./src/theme/assets/backgrounds/index.ts"],
+      "@svg": ["./src/theme/assets/svgs/index.ts"],
+      "@routes": ["./src/navigators/routes.ts"],
+      "@hooks": ["./src/hooks/index.ts"],
+      "@components": ["./src/components/index.ts"],
+      "@navigation/*": ["./src/navigation/*"],
+      "@store/*": ["./src/store/*"],
+      "@screens": ["src/screens/index.ts"],
+      "@theme": ["./src/theme/index.ts"],
+      "@typing/*": ["./typing/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@services/*": ["./src/services/*"],
+      "@src/*": ["./src/*"],
+    },
+    "types": ["react-native", "jest", "node"],
+  }
+}

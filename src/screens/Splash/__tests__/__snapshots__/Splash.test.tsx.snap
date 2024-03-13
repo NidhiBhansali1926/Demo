@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Test for Rendering Splash Screen Component Snapshot of Splash Screen with Navigation Props 1`] = `
+<AppBackground
+  colors={[]}
+  overlayColor=""
+>
+  <View
+    style={
+      [
+        {},
+        {},
+      ]
+    }
+  >
+    <LogoSVG />
+    <ActivityIndicator
+      color="pink"
+      size="large"
+      style={
+        [
+          {},
+        ]
+      }
+    />
+  </View>
+</AppBackground>
+`;

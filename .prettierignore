@@ -1,0 +1,9 @@
+/__tests__/
+/.bundle/
+/.gradle/
+/.idea/
+/android/
+/ios/
+/node_modules/
+tsconfig.json
+/vendor/

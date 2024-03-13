@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Test for Rendering Header Component Snapshot of Header Component with Navigation Props 1`] = `
+<Header
+  handleOnPressBackIcon={[MockFunction]}
+  navigation={
+    {
+      "addListener": [MockFunction],
+      "dispatch": [MockFunction],
+      "getState": [MockFunction],
+      "goBack": [MockFunction],
+      "isFocused": [Function],
+      "navigate": [MockFunction],
+      "replace": [MockFunction],
+    }
+  }
+/>
+`;
