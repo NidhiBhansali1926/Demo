@@ -188,7 +188,7 @@
     "prefer-const": "error",
     "@typescript-eslint/prefer-for-of": "error",
     "space-before-function-paren": [
-      "error",
+      "off",
       {
         "anonymous": "always",
         "asyncArrow": "always",
