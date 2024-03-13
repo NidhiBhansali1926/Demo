@@ -6,7 +6,7 @@ import { FontSize } from './Variables';
 
 import { CommonParams } from '@typing/theme';
 
-export default function <C>({ Colors, ...args }: CommonParams<C>) {
+export default function <C> ({ Colors, ...args }: CommonParams<C>) {
   return {
     ...StyleSheet.create({
       heading2: {
