@@ -34,4 +34,4 @@ jobs:
         run: npm run test
 
       - name: Build Expo project
-        run: expo build:android
+        run: npm run android
