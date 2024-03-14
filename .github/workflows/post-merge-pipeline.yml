@@ -3,7 +3,7 @@ name: Post Merge Pipline
 on:
   push:
     branches:
-      - main
+      - feature/test
 
 jobs:
   build:
