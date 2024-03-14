@@ -2,10 +2,12 @@ name: Pull Request
 
 on:
   pull_request:
+    branches:
+     - main
     types: [opened, reopened]
 
 jobs:
-  build:
+  build-test:
     runs-on: ubuntu-latest
 
     steps:
