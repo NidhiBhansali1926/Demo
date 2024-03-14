@@ -36,6 +36,3 @@ jobs:
 
       - name: Run test check
         run: npm run test
-
-      - name: Build Expo project
-        run: npx expo run:android

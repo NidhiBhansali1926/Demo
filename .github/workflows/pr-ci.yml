@@ -1,0 +1,39 @@
+name: PR Pipeline
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20.10.0'
+
+      - name: Install Expo CLI
+        run: npm install -g expo-cli
+
+      - name: Install Android SDK
+        uses: android-actions/setup-android@v2
+        with:
+          sdk-version: '30'
+
+      - name: Install project dependencies
+        run: npm install
+
+      - name: Android Build
+        run: expo build:android --non-interactive --type apk
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: android-app
+          path: ./android/app/build/outputs/apk/*.apk
