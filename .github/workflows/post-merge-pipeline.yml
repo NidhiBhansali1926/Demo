@@ -1,11 +1,10 @@
-name: Pull Request Pipeline
+name: Post Merge Pipline
 
 on:
-  pull_request:
-    types: [opened, reopened, synchronize]
+  push:
     branches:
-      - develop
-      - 'feature/*'
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
