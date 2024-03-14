@@ -31,4 +31,4 @@ jobs:
         run: npm run lint
 
       - name: Run test check
-        run: npm run test
+        run: npm --prefix mobile run test
