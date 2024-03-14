@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Test for Rendering MaximizeExperience Screen Component Snapshot of MaximizeExperience Screen with Navigation Props 1`] = `
+<AppBackground>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      [
+        "scrollFillValue",
+        {
+          "borderTopEndRadius": 32,
+          "borderTopStartRadius": 32,
+          "paddingHorizontal": 20,
+        },
+        {
+          "backgroundColor": "pink",
+        },
+      ]
+    }
+    overScrollMode="never"
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "marginTop": 35,
+      }
+    }
+  >
+    <View>
+      <Header
+        handleOnPressBackIcon={[Function]}
+      />
+      <SurveyTwoSVG
+        style={
+          {
+            "marginBottom": 48,
+            "marginTop": 53,
+          }
+        }
+      />
+      <Text
+        style={
+          [
+            undefined,
+            undefined,
+            {
+              "color": "yellow",
+            },
+          ]
+        }
+      >
+        maximizeExperience:title
+      </Text>
+      <Text
+        style={
+          [
+            undefined,
+            undefined,
+            undefined,
+            {
+              "marginTop": 4,
+            },
+            {
+              "color": "red",
+            },
+          ]
+        }
+      >
+        maximizeExperience:description
+      </Text>
+      <AppButton
+        handleClick={[Function]}
+        name="maximizeExperience:primaryBtn"
+      />
+    </View>
+  </RCTScrollView>
+</AppBackground>
+`;

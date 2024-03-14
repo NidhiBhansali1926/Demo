@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Test for Rendering EnterTheGlovers Screen Component Snapshot of EnterTheGlovers Screen with Navigation Props 1`] = `
+<AppBackground
+  source="surveyThreeImage.jpg"
+>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      [
+        "scrollFillValue",
+        {
+          "borderTopEndRadius": 32,
+          "borderTopStartRadius": 32,
+          "paddingHorizontal": 20,
+        },
+        {
+          "backgroundColor": "pink",
+        },
+      ]
+    }
+    overScrollMode="never"
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "marginTop": 35,
+      }
+    }
+  >
+    <View>
+      <SurveyFourSVG
+        style={
+          {
+            "marginBottom": 32,
+            "marginTop": 88,
+          }
+        }
+      />
+      <Text
+        style={
+          [
+            undefined,
+            undefined,
+            {
+              "color": "yellow",
+            },
+          ]
+        }
+      >
+        enterTheGlovers:title
+      </Text>
+      <Text
+        style={
+          [
+            undefined,
+            undefined,
+            undefined,
+            {
+              "marginTop": 4,
+            },
+            {
+              "color": "red",
+            },
+          ]
+        }
+      >
+        enterTheGlovers:description
+      </Text>
+      <AppButton
+        handleClick={[Function]}
+        name="enterTheGlovers:primaryBtn"
+      />
+    </View>
+  </RCTScrollView>
+</AppBackground>
+`;

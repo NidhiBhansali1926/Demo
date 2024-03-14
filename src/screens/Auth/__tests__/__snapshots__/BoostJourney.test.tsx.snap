@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Test for Rendering BoostJourney Screen Component Snapshot of BoostJourney Screen with Navigation Props 1`] = `
+<AppBackground
+  source="surveyThreeImage.jpg"
+>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={
+      [
+        "scrollFillValue",
+        {
+          "borderTopEndRadius": 32,
+          "borderTopStartRadius": 32,
+          "paddingHorizontal": 20,
+        },
+        {
+          "backgroundColor": "pink",
+        },
+      ]
+    }
+    overScrollMode="never"
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "marginTop": 35,
+      }
+    }
+  >
+    <View>
+      <Header
+        handleOnPressBackIcon={[Function]}
+      />
+      <SurveyThreeSVG
+        style={
+          {
+            "marginBottom": 48,
+            "marginTop": 53,
+          }
+        }
+      />
+      <Text
+        style={
+          [
+            undefined,
+            undefined,
+            {
+              "color": "yellow",
+            },
+          ]
+        }
+      >
+        boostJourney:title
+      </Text>
+      <Text
+        style={
+          [
+            undefined,
+            undefined,
+            undefined,
+            {
+              "marginTop": 4,
+            },
+            {
+              "color": "red",
+            },
+          ]
+        }
+      >
+        boostJourney:description
+      </Text>
+      <AppButton
+        handleClick={[Function]}
+        name="boostJourney:primaryBtn"
+      />
+    </View>
+  </RCTScrollView>
+</AppBackground>
+`;

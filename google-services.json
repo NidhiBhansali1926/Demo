@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047114333579",
+    "project_id": "travelhotline-de4ba",
+    "storage_bucket": "travelhotline-de4ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047114333579:android:eafce93832337b5b71038e",
+        "android_client_info": {
+          "package_name": "com.travelhotline.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0oBKhiU_7mkr2nodUbzIbOzJsBJn6YEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
