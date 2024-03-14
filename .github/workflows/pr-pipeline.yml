@@ -4,10 +4,8 @@ on:
   push:
     branches:
       - develop
-    types: [opened, reopened]
-
 jobs:
-  build-test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
