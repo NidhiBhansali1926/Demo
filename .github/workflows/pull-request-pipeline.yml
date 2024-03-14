@@ -1,10 +1,12 @@
-name: Expo CI
+name: Pull Request Pipeline
 
 on:
   pull_request:
+    types: [opened,reopened,synchronize]
     branches:
+      - main
       - develop
-
+      - 'feature/*'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,10 +25,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      # Add platform-tools to PATH
-      - name: Add platform-tools to PATH
-        run: echo "export PATH=\$PATH:/home/ics-30/Android/Sdk/platform-tools" >> $GITHUB_PATH
 
       - name: Run Prettier check
         run: npm run pretty
