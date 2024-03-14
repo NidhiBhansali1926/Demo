@@ -4,8 +4,8 @@ on:
   pull_request:
     types: [opened, reopened, synchronize]
     branches:
-      - develop
-      - 'feature/*'
+      - main #Target branch in which we want to merge the PR.
+
 jobs:
   build:
     runs-on: ubuntu-latest
