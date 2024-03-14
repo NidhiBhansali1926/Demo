@@ -1,4 +1,4 @@
-name: Post Merge Pipline
+name: Post Merge Pipeline
 
 on:
   push:
@@ -31,4 +31,7 @@ jobs:
         run: npm run lint
 
       - name: Run test check
-        run: npm --prefix mobile run test
+        run: |
+          cd ../..
+          cd Mobile
+          npm run test
