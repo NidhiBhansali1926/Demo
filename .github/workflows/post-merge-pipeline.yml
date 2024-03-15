@@ -31,7 +31,7 @@ jobs:
         run: npm run lint
 
       - name: Run test check
+        working-directory: Mobile
         run: |
-          working-directory: Mobile
           npm install
           npm run test
