@@ -32,7 +32,6 @@ jobs:
 
       - name: Run test check
         run: |
-          cd ../..
-          cd Mobile
+          working-directory: Mobile
           npm install
           npm run test
