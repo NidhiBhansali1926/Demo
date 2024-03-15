@@ -1,9 +1,9 @@
-name: Post Merge Pipline
+name: Post Merge Pipeline
 
 on:
   push:
     branches:
-      - main
+      - feature/test
 
 jobs:
   build:
@@ -32,3 +32,6 @@ jobs:
 
       - name: Run test check
         run: npm run test
+
+      - name: Build Android App
+        run: npm run android
